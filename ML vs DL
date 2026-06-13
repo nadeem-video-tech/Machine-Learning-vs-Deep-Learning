@@ -1,0 +1,281 @@
+Deep learning is a type of machine learning algorithm that uses deep neural networks to learn complex patterns and relationships in data.
+In deep learning, the model is a neural network that consists of multiple layers of interconnected nodes, called neurons, that process and transform the input data.
+The neurons in each layer extract and combine features from the data, and the model learns to map the features to the desired outputs through a training process that adjusts the weights of the connections between the neurons.
+Deep learning can be used for a variety of tasks, such as image recognition, natural language processing, and time series forecasting.
+Some popular deep learning algorithms include convolutional neural networks, recurrent neural networks, and autoencoders.
+Deep learning has achieved state-of-the-art performance on many challenging tasks, and it has the potential to unlock new insights and applications in many fields.
+However, deep learning can require large amounts of data and computational resources, and it can be difficult to design, train, and interpret deep neural networks.
+Overall, deep learning is an exciting and promising area of machine learning that has the potential to revolutionize many fields and industries.
+
+
+Basic Definitions
+Machine Learning (ML)
+Machine learning uses algorithms that learn patterns from data using:
+
+Statistical methods
+Feature engineering
+Mathematical optimization
+
+Examples:
+Decision Trees
+SVM
+Random Forest
+K-Means
+
+Deep Learning (DL)
+Deep learning uses:
+Multi-layer neural networks
+Large datasets
+High computational power
+
+to automatically learn features and patterns.
+Examples:
+CNN
+RNN
+Transformer
+Autoencoder
+
+Main Difference
+
+Machine Learning
+Humans manually design features.
+Input Data
+   ↓
+Feature Extraction (Human-designed)
+   ↓
+ML Algorithm
+   ↓
+Prediction
+
+Deep Learning
+System learns features automatically.
+Input Data
+   ↓
+Deep Neural Network
+   ↓
+Automatic Feature Learning
+   ↓
+Prediction
+
+Comparison Table
+| Feature            | Machine Learning | Deep Learning        |
+| ------------------ | ---------------- | -------------------- |
+| Feature Extraction | Manual           | Automatic            |
+| Data Requirement   | Small/Medium     | Very Large           |
+| Hardware Need      | CPU sufficient   | GPU/TPU preferred    |
+| Training Time      | Faster           | Slower               |
+| Accuracy           | Moderate         | Very high            |
+| Interpretability   | Better           | Poorer               |
+| Complexity         | Lower            | Higher               |
+| Scalability        | Limited          | Excellent            |
+| Best for           | Structured data  | Images, video, audio |
+
+
+Common Machine Learning Algorithms
+Supervised Learning
+Uses labeled data.
+
+Examples:
+Linear Regression
+Logistic Regression
+Decision Tree
+Random Forest
+SVM
+
+Applications:
+Fraud detection
+Prediction systems
+Classification
+
+Unsupervised Learning
+Uses unlabeled data.
+
+Examples:
+K-Means
+PCA
+Clustering
+
+Applications:
+Customer segmentation
+Pattern discovery
+
+Reinforcement Learning
+Learns through reward/penalty.
+
+Applications:
+Robotics
+Gaming AI
+Autonomous systems
+
+Common Deep Learning Architectures
+CNN (Convolutional Neural Networks)
+
+Used for:
+Image processing
+Video analysis
+Medical imaging
+
+RNN/LSTM
+Used for:
+Sequential data
+Speech
+Time series
+
+Transformers
+Used for:
+LLMs
+NLP
+Vision transformers
+
+Examples:
+OpenAI GPT models
+Google Gemini
+
+Autoencoders
+Used for:
+Compression
+Denoising
+Feature learning
+Very relevant to image/video compression research.
+
+Data Requirement
+Machine Learning
+Can work with:
+Thousands of samples
+
+Deep Learning
+Often needs:
+Millions of samples
+
+Example:
+ImageNet:
+14+ million images
+
+Hardware Requirement
+ML
+Usually runs on:
+CPUs
+
+DL
+Requires:
+GPUs
+TPUs
+High memory
+
+Common hardware:
+NVIDIA GPUs
+Google TPUs
+
+Example: Image Recognition
+Machine Learning Approach
+Steps:
+Extract edges/textures manually
+Feed features into SVM/Random Forest
+Predict object
+
+Deep Learning Approach
+CNN automatically learns:
+Edges
+Shapes
+Textures
+Objects
+directly from raw images.
+
+Applications Comparison
+| Area        | ML                  | DL                 |
+| ----------- | ------------------- | ------------------ |
+| Banking     | Fraud detection     | AI assistants      |
+| Healthcare  | Risk prediction     | Medical imaging    |
+| Compression | Rate prediction     | Neural codecs      |
+| NLP         | Spam filtering      | LLMs               |
+| Vision      | Classical detection | Object recognition |
+| Streaming   | QoE prediction      | AI bitrate control |
+
+In Multimedia Compression
+Machine Learning Uses
+
+Traditional ML is used for:
+Rate control
+Complexity prediction
+Scene classification
+
+Deep Learning Uses
+DL is used for:
+Neural image compression
+Neural video codecs
+Super-resolution
+Learned entropy coding
+Perceptual optimization
+
+This is the modern research direction.
+
+
+Advantages of Machine Learning
+Simpler
+Faster training
+Less data needed
+More explainable
+
+
+Advantages of Deep Learning
+Higher accuracy
+Automatic feature extraction
+Better for unstructured data
+State-of-the-art performance
+
+
+Limitations
+ML Limitations
+Requires manual features
+Limited on complex data
+
+DL Limitations
+Huge computational cost
+Large data requirement
+Difficult interpretation
+
+Example from Video Compression
+Machine Learning-Based Compression
+
+Predict:
+Motion complexity
+QP selection
+Rate control
+
+using:
+Decision trees
+Regression models
+
+Deep Learning-Based Compression
+Replace codec modules using:
+CNNs
+Transformers
+Autoencoders
+Examples:
+Neural motion estimation
+Learned entropy coding
+
+Current Industry Trend
+Industry is rapidly shifting toward:
+AI-assisted systems
+Deep neural architectures
+Generative AI
+Neural multimedia compression
+
+Major companies:
+Google
+Microsoft
+Meta
+NVIDIA
+
+
+Which is Better?
+Depends on the problem.
+| Situation                      | Better Choice |
+| ------------------------------ | ------------- |
+| Small dataset                  | ML            |
+| Limited hardware               | ML            |
+| Images/videos/audio            | DL            |
+| Very high accuracy needed      | DL            |
+| Explainability important       | ML            |
+| Real-time low-resource systems | ML or hybrid  |
